@@ -1,0 +1,144 @@
+@import "reset.scss";
+
+*, 
+*::before, 
+*::after{
+   box-sizing: border-box;
+}
+
+body {
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 400;
+}
+
+a {
+   text-decoration: none;
+   color: #000;
+}
+
+.btn {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 20px;
+   letter-spacing: 0.01em;
+   color: #fff;
+   background: #10269B;
+   padding: 12px 18px;
+   max-width: 183px;
+   text-align: center;
+}
+
+.container {
+   max-width: 1180px;
+   margin: 0 auto;
+   padding: 0 30px;
+}
+
+.header {
+
+   &__inner {
+      display: flex;
+      justify-content: space-between;
+      padding: 30px 0px;
+      align-items: center;
+   }
+
+   &__number {
+      margin-left: auto;
+      margin-right: 30px;
+      span {
+         color: #D1D1D1;
+         font-size: 16px;
+         line-height: 20px;
+         letter-spacing: 0.01em;
+      }
+   }
+
+   &__link-number {
+         font-weight: 500;
+         font-size: 16px;
+         line-height: 20px;
+         letter-spacing: 0.01em;
+   }
+
+}
+
+.error {
+   background: #061147;
+   &__inner {
+      padding: 87px 0px;
+      color: #fff;
+      text-align: center;
+      max-width: 622px;
+      margin: 0 auto;
+   }
+
+   &__title {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 49px;
+      margin-bottom: 20px;
+   }
+
+   &__404 {
+      font-weight: 700;
+      font-size: 144px;
+      line-height: 176px;
+      letter-spacing: 0.01em;
+      margin-bottom: 30px;
+   }
+
+   &__text {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      letter-spacing: 0.3px;
+      color: #A2A2A2;
+      text-align: center;
+      margin-bottom: 70px;
+   }
+
+   &__button {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      letter-spacing: 0.01em;
+      color: #fff;
+      background: #10269B;
+      padding: 20px 64px;
+      max-width: 280px;
+      text-align: center;
+   }
+}
+
+
+
+
+
+
+
+.footer {
+   &__inner {
+      padding: 108px 0px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   }
+   
+   &__info {
+      margin-left: auto;
+      margin-right: 129px;
+      color: #10269B;
+      font-size: 14px;
+      line-height: 17px;
+      font-weight: 500;
+   }
+   
+   &__text {
+      color: #10269B;
+      font-size: 14px;
+      line-height: 17px;
+      font-weight: 500;
+   }
+}
+
